@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carros</title>
+    <link rel="stylesheet" type="text/css" href="./styles/style.css"/>
+    <link rel="shortcut icon" href="icons/Porsche (1).png" type="image/x-icon">
+</head>
+<body >
+    <header>
+        <nav class="menu">
+          <ul>
+            <div class="menu-logos">
+              <a href="./index.html"><img src="./icons/Porsche (1).png" alt="Logo 1"></a>
+            
+            </div>
+            <li><a href="index.html">Início</a></li> 
+            <li><a href="./pagina1.html">História</a></li> 
+            <li><a href="./pagina2.html">Notícias</a></li> 
+            <li><a href="./pagina3.html">Carros</a></li>
+          </ul>
+        </nav>
+      </header>
+    <main >
+      <h1>Porsche</h1>
+        <section>
+          <img src="./icons/Design sem nome.png" />
+          <p>
+            Bem-vindo ao formulário da Porsche! Por favor, preencha os campos abaixo com as informações solicitadas para que possamos entrar em contato com você o mais breve possível.</p>
+          <fieldset>
+          <h1>Formulário de contato</h1>
+          <fieldset>
+            <legend>Informações pessoais:</legend>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required><br>
+        
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+        
+            <label for="idade">Idade:</label>
+            <input type="number" id="idade" name="idade" required><br>
+        
+            <label for="modelo">Modelo de Porsche preferido:</label>
+            <select id="modelo" name="modelo" required>
+              <option value="">Selecione um modelo</option>
+              <option value="911">911</option>
+              <option value="Cayenne">Cayenne</option>
+              <option value="Panamera">Panamera</option>
+          </form>
+
+          <h1>Formulário de feedback do site da Porsche</h1>
+          
+          <form action="processar-feedback.php" method="post">
+            <h1>Formulário de feedback do site da Porsche</h1>
+            <p>Como você avalia o site da Porsche?</p>
+            <label>
+              <input type="radio" name="avaliacao" value="excelente">
+              Excelente
+            </label>
+            <label>
+              <input type="radio" name="avaliacao" value="bom">
+              Bom
+            </label>
+            <label>
+              <input type="radio" name="avaliacao" value="regular">
+              Regular
+            </label>
+            <label>
+              <input type="radio" name="avaliacao" value="ruim">
+              Ruim
+            </label>
+            <p>O que você mais gostou no site da Porsche?</p>
+            <textarea name="gostei" rows="5" cols="30"></textarea>
+            <p>O que você acha que poderia ser melhorado?</p>
+            <textarea name="melhorar" rows="5" cols="30"></textarea>
+            <br>
+            
+            <input type="reset" value="Limpar">
+            <button type="submit">Enviar feedback</button>
+          </form>
+        </fieldset>
+        <p>Você tem alguma outra pergunta ou comentário que gostaria de compartilhar conosco?</p>
+
+         <p> Obrigado por escolher a Porsche. Entraremos em contato com você em breve para discutir mais sobre as suas opções.</p>
+        <img src="./imagem/Obrigando pelo feedback.png" />
+         </section> 
+</main>
+<footer>
+  <div class="footer-logos">
+    <a href="./index.html"><img src="./icons/Porsche (1).png" alt="Logo 1"></a>
+  </div>
+  <div class="footer-icons">
+    <a href="./pagina3.html"><img src="./icons/credit.png"><i class="fab fa-twitter"></i></a>
+    <a href="./pagina2.html"><img src="./icons/settings.png"><i class="fab fa-twitter"></i></a>
+    <a href="./pagina3.html"><img src="./icons/mai.png"><i class="fab fa-twitter"></i></a>
+
+  </div>
+  
+  <p>© 2023 Porsche Brasil Importadora de Veículos Ltda. Indicações Legais.<br/>
+    Política de Privacidade.  Compliance Porsche.  Canal de Denúncia.  Open Source Software Notice.</p>
+</footer>
+</body>
+</html>

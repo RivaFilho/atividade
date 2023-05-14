@@ -1,0 +1,93 @@
+        <!DOCTYPE html>
+        <html lang="pt-br">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Pagina01'</title>
+            <link rel="stylesheet" type="text/css" href="./styles/style.css"/>
+            
+        </head>
+        <body>
+            <h2 align="center">Atividade 03</h2>
+            <form>
+              <fieldset>
+                <legend>Informações pessoais:</legend>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required><br>
+            
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+            
+                <label for="idade">Idade:</label>
+                <input type="number" id="idade" name="idade" required><br>
+            
+                <label for="modelo">Modelo de Porsche preferido:</label>
+                <select id="modelo" name="modelo" required>
+                  <option value="">Selecione um modelo</option>
+                  <option value="911">911</option>
+                  <option value="Cayenne">Cayenne</option>
+                  <option value="Panamera">Panamera</option>
+                </select><br>
+            
+                <label for="cor">Cor preferida:</label>
+                <select id="cor" name="cor" required>
+                  <option value="">Selecione uma cor</option>
+                  <option value="Preto">Preto</option>
+                  <option value="Branco">Branco</option>
+                  <option value="Prata">Prata</option>
+                  <option value="Azul">Azul</option>
+                  <option value="Vermelho">Vermelho</option>
+                </select><br>
+              </fieldset>
+            
+              <fieldset>
+                <legend>Preferências de condução:</legend>
+                <label for="transmissao">Transmissão preferida:</label><br>
+                <input type="radio" id="manual" name="transmissao" value="manual" required>
+                <label for="manual">Manual</label><br>
+                <input type="radio" id="automatica" name="transmissao" value="automatica" required>
+                <label for="automatica">Automática</label><br>
+            
+                <label for="tracao">Tração preferida:</label><br>
+                <input type="radio" id="traseira" name="tracao" value="traseira" required>
+                <label for="traseira">Traseira</label><br>
+                <input type="radio" id="integral" name="tracao" value="integral" required>
+                <label for="integral">Integral</label><br>
+            
+                <label for="modo_dirigir">Modo de dirigir preferido:</label><br>
+                <input type="radio" id="conforto" name="modo_dirigir" value="conforto" required>
+                <label for="conforto">Conforto</label><br>
+                <input type="radio" id="esporte" name="modo_dirigir" value="esporte" required>
+                <label for="esporte">Esporte</label><br>
+              </fieldset>
+
+              <fieldset>
+                <legend>Informações sobre o evento:</legend>
+                <label for="evento">Evento:</label>
+                <select id="evento" name="evento" required>
+                  <option value="">Selecione o evento</option>
+                  <option value="conferencia">Conferência</option>
+                  <option value="workshop">Workshop</option>
+                  <option value="seminario">Seminário</option>
+                </select><br>
+            
+                <label for="data">Data:</label>
+                <input type="date" id="data" name="data" required><br>
+            
+                <label for="hora">Horário:</label>
+                <input type="time" id="hora" name="hora" required><br>
+            
+                <label for="local">Local:</label>
+                <input type="text" id="local" name="local" required><br>
+            
+                <label for="acompanhante">Acompanhante:</label>
+                <input type="text" id="acompanhante" name="acompanhante"><br>
+              </fieldset>
+            
+              <input type="reset" value="Limpar">
+              <input type="submit" value="Enviar">
+            
+            </body>
+          </html>
+        
